@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcos Araújo-Portfolio-Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  </head>
+  <body> 
+    
+    <div class="navigation">
+      <div class="toggle"><span></span></div>
+      <ul>
+        <li style="--i:0;"><a href="#">Início</a></li>
+        <li style="--i:1;"><a href="#">Sobre</a></li>
+        <li style="--i:2;"><a href="#">Serviços</a></li>
+        <li style="--i:3;"><a href="#">Trabalhos</a></li>
+        <li style="--i:4;"><a href="#">Portfolio</a></li>
+        <li style="--i:5;"><a href="#">Contatos</a></li>
+      </ul>
+    </div>
+    <script>
+      let navigation = document.querySelector('.navigation');
+      document.querySelector('.toggle').onclick = function(){
+        this.classList.toggle('active');
+        navigation.classList.toggle('active');
+      }
+    </script>
+    
+    <div class="hero__section"> 
+      
+      <h1 class="title">   Marcos-Ferreira-</h1>
+      
+      <div class="hero__wrapper">
+        <div class="column__left">                       
+              <div ><h2 class="box-4">PORTFOLIO</h2>
+                <h1 class="box-2">Marcos Araújo</h1> 
+                   
+                        
+              <p class="box-3">
+                | FRONT-END DEVELOPER | UI/UX DESIGNER |
+              </p>
+              <div class="loader">
+                <style>
+                  
+                  
+                </style>
+              </div>          
+            </div>            
+          </div>               
+                 
+            <div class="column__right"><div class="container">
+              <div class="tilt-box-wrap">
+                  <span class="t_over"></span>
+                  <span class="t_over"></span>
+                  <span class="t_over"></span>
+                  <span class="t_over"></span>
+                  <span class="t_over"></span>
+                  <span class="t_over"></span>
+                  <span class="t_over"></span>
+                  <span class="t_over"></span>
+                  <span class="t_over"></span>
+                  <div class="tilt-box">
+                      
+                      <p  class="brain__right">
+                          <img src="images\Front-End-3D.webp" alt="brain" class="hero__img" /></p>   
+                                     
+                </div>
+                
+            </div>   
+            
+               
+          </div>            
+        </div>
+              
+      </div>    
+      
+    </div>
+    
+    <script src="main.js"></script>
+    <!-- About Section -->
+    <div class="main__section">
+      <div class="main__container">
+       <h1 >SOBRE</h1>
+        <div class="main__content">
+          <div class="main__text">
+            <h2>
+              Vou contar um pouco sobre mim e meu trabalho...
+              
+            </h2>
+            <p>
+             Atualmente sou universitário cursando o 3°semestre de análise e desenvolvimento de sistemas e o 2°semestre de sistemas  para internet pelo "Centro Universitário Leonardo da Vinci". E também curso o 2° semestre
+             de redes de computadores pela "Universidade Cesumar", atuo no mercado como freelancer, oferecendo soluções completas em redes manutenção de micros e sistemas web, mobile, desktop, design gráfico, e sistemas integrados.
+            </p>
+          </div>
+          <div class="main__image">
+            <div class="content">
+              <img  src="images\perfil.jpg">
+              <h2>Desenvolvedor Front-End<br><span>UX/UI Designer</span></h2>
+              <a href="#">Currículo</a>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services Section -->
+    <div class="services">
+      <div class="services__container">
+        <h1>Serviços</h1>
+        <div class="services__grid">
+          <div class="services__left">
+            <div class="services__content">
+              <img src="./images/chess.svg" alt="chess piece" />
+              <div class="services__desc">
+                <h2>UX Estratégico</h2>
+                <p>
+                  Frameworks e métodos para a criação de designs de qualidade.
+                </p>
+              </div>
+            </div>
+            <div class="services__content">
+              <img src="./images/wireframe.svg" alt="chess piece" />
+              <div class="services__desc">
+                <h2>websites E web apps</h2>
+                <p>
+                  Com um universo de dispositivos móveis cada vez maior, trabalhamos em oferecer maior responsividade
+                  e interação para o usuário com websites funcionais com grande precisão.
+                </p>
+              </div>
+            </div>
+            <div class="services__content">
+              <img src="./images/virtual.svg" alt="chess piece" />
+              <div class="services__desc">
+                <h2>Mobile-Web Apps</h2>
+                <p>
+                  Nossos sites, são altamente compativeis com o universo móvel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="services__right">
+            <img src="./images/Macbook.png" alt="macbook" class="macbook" />
+          </div>
+        </div>
+      </div>
+      <div class="yellow__bar">
+        <img src="./images/mail.svg" alt="email icon" />
+        <p>Email</p>
+        <span>tecnologia.master@hotmail.com</span>
+      </div>
+    </div>
+    <!-- Portfolio -->
+    <div class="portfolio">
+      <div class="portfolio__container">
+        <h1>PORTFOLIO</h1>
+        <div class="portfolio__main">
+          <div class="portfolio__left">
+            <img
+              src="./images/portfolio-img.svg"
+              alt="dashboard"
+              class="portfolio__img"
+            />
+          </div>
+          <div class="portfolio__right">
+            <h2>Web Apps Multitech Desenvolvidos </h2>
+            <p>
+              Meu Portifolio ainda está em desenvovimento, e será atualizado conforme os trabalhos forem sendo realizados.
+            </p>
+            <a href="#">Veja de Novo ></a>
+          </div>
+        </div>
+        <div class="portfolio__projects">
+          <img src="./images/portfolio1.svg" alt="portfolio" />
+          <img src="./images/portfolio2.svg" alt="portfolio" />
+          <img src="./images/portfolio3.svg" alt="portfolio" />
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+      <div class="contact__bar">
+        <img src="./images/mail.svg" alt="email icon" />
+        <p>Email</p>
+        <span>tecnologia.master@hotmail.com</span>
+      </div>
+      <h1>Fale comigo</h1>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer__container">
+        <div class="footer__left">
+          <h2> Developer by Marcos Araújo</h2>
+          <p>
+            © Copyright 2023 Multitech Tecnologia da Informação . todos os direitos reservados.
+          </p>
+        </div>
+        <div class="footer__right">
+          <a href="#">Sobre Mim</a> <a href="https://linktr.ee/Araujoeferreira" target="_blank">Serviços</a>
+          <a href="#">Portfolio</a> <a href="https://wa.me/5561996013314" target="_blank" >Contatos</a>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
